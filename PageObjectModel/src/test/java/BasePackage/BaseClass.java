@@ -30,7 +30,7 @@ public class BaseClass {
 	public static ExtentTest test;
 	
 
-	
+	//This is master class
 	public BaseClass(){
 		
 			
