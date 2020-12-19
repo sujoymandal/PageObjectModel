@@ -23,19 +23,22 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class BaseClass {
-	
+	//public WebDriver driver;
 	public static WebDriver driver=null;
 	public static Properties prop;
 	public static ExtentReports report;
 	public static ExtentTest test;
-	
+	public static String browser;
 
 	//This is master class
 	public BaseClass(){
 		
-			
+		if(System.getenv("Browser")!=null && !System.getenv("Browser").isEmpty()){
+			browser=System.getenv("Browser");
+		}
+		else
+			browser=readProperty("Browser");
 			if(driver == null){
-			String browser=readProperty("Browser");
 			String url=readProperty("Url");
 			String driverPath=System.getProperty("user.dir")+"\\src\\test\\resources\\chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", driverPath);

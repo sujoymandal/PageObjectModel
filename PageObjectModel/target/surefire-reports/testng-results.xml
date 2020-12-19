@@ -1,113 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60829" started-at="2020-04-21T12:56:13Z" finished-at="2020-04-21T12:57:14Z">
+  <suite name="Suite" duration-ms="146659" started-at="2020-04-22T13:36:31Z" finished-at="2020-04-22T13:38:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60829" started-at="2020-04-21T12:56:13Z" finished-at="2020-04-21T12:57:14Z">
+    <test name="Test" duration-ms="146659" started-at="2020-04-22T13:36:31Z" finished-at="2020-04-22T13:38:58Z">
       <class name="Tests.CheckTShirtLink">
-        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.CheckTShirtLink@7bd4937b]" name="execute" duration-ms="68" started-at="2020-04-21T12:56:22Z" finished-at="2020-04-21T12:56:22Z">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[execute]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: execute
-at BasePackage.ListenerClass.onTestStart(ListenerClass.java:16)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
-at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.CheckTShirtLink@7bd4937b]" name="execute" duration-ms="38722" started-at="2020-04-22T13:37:29Z" finished-at="2020-04-22T13:38:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
       </class> <!-- Tests.CheckTShirtLink -->
       <class name="Tests.CheckSignIn">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.CheckSignIn@21e360a]" name="execute" duration-ms="24353" started-at="2020-04-21T12:56:22Z" finished-at="2020-04-21T12:56:46Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.CheckSignIn@21e360a]" name="execute" duration-ms="19969" started-at="2020-04-22T13:38:11Z" finished-at="2020-04-22T13:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
       </class> <!-- Tests.CheckSignIn -->
       <class name="Tests.MenFashionPageTest">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.MenFashionPageTest@7c24b813]" name="execute" duration-ms="5912" started-at="2020-04-21T12:56:13Z" finished-at="2020-04-21T12:56:19Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.MenFashionPageTest@7c24b813]" name="execute" duration-ms="9974" started-at="2020-04-22T13:36:32Z" finished-at="2020-04-22T13:36:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
       </class> <!-- Tests.MenFashionPageTest -->
-      <class name="Tests.MobilePageTest">
-        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.MobilePageTest@2c35e847]" name="execute" duration-ms="96" started-at="2020-04-21T12:56:21Z" finished-at="2020-04-21T12:56:22Z">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[execute]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: execute
-at BasePackage.ListenerClass.onTestStart(ListenerClass.java:16)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
-at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- execute -->
-      </class> <!-- Tests.MobilePageTest -->
       <class name="Tests.SearchItemTest">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.SearchItemTest@5ba3f27a]" name="execute" duration-ms="24163" started-at="2020-04-21T12:56:48Z" finished-at="2020-04-21T12:57:12Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.SearchItemTest@5ba3f27a]" name="execute" duration-ms="22869" started-at="2020-04-22T13:38:32Z" finished-at="2020-04-22T13:38:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
       </class> <!-- Tests.SearchItemTest -->
+      <class name="Tests.MobilePageTest">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.MobilePageTest@2c35e847]" name="execute" duration-ms="42628" started-at="2020-04-22T13:36:44Z" finished-at="2020-04-22T13:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+      </class> <!-- Tests.MobilePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

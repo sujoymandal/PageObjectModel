@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="5" passed="3">
+<testng-results skipped="3" failed="0" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="62954" started-at="2020-04-21T12:54:03Z" finished-at="2020-04-21T12:55:06Z">
+  <suite name="Suite" duration-ms="47230" started-at="2020-12-19T04:14:02Z" finished-at="2020-12-19T04:14:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="62954" started-at="2020-04-21T12:54:03Z" finished-at="2020-04-21T12:55:06Z">
+    <test name="Test" duration-ms="47230" started-at="2020-12-19T04:14:02Z" finished-at="2020-12-19T04:14:49Z">
       <class name="Tests.CheckTShirtLink">
-        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.CheckTShirtLink@34f5090e]" name="execute" duration-ms="196" started-at="2020-04-21T18:24:15Z" finished-at="2020-04-21T18:24:16Z">
+        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.CheckTShirtLink@1a4013]" name="execute" duration-ms="135" started-at="2020-12-19T09:44:22Z" finished-at="2020-12-19T09:44:22Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[execute]]>
@@ -44,19 +44,7 @@
         </test-method> <!-- execute -->
       </class> <!-- Tests.CheckTShirtLink -->
       <class name="Tests.CheckSignIn">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.CheckSignIn@31e5415e]" name="execute" duration-ms="21021" started-at="2020-04-21T18:24:16Z" finished-at="2020-04-21T18:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- execute -->
-      </class> <!-- Tests.CheckSignIn -->
-      <class name="Tests.MenFashionPageTest">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.MenFashionPageTest@27ff5d15]" name="execute" duration-ms="9272" started-at="2020-04-21T18:24:04Z" finished-at="2020-04-21T18:24:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- execute -->
-      </class> <!-- Tests.MenFashionPageTest -->
-      <class name="Tests.MobilePageTest">
-        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.MobilePageTest@693fe6c9]" name="execute" duration-ms="194" started-at="2020-04-21T18:24:15Z" finished-at="2020-04-21T18:24:15Z">
+        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.CheckSignIn@1b6e1eff]" name="execute" duration-ms="133" started-at="2020-12-19T09:44:22Z" finished-at="2020-12-19T09:44:22Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[execute]]>
@@ -91,9 +79,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->
+      </class> <!-- Tests.CheckSignIn -->
+      <class name="Tests.MenFashionPageTest">
+        <test-method status="SKIP" signature="execute()[pri:0, instance:Tests.MenFashionPageTest@34f5090e]" name="execute" duration-ms="2465" started-at="2020-12-19T09:44:02Z" finished-at="2020-12-19T09:44:05Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[execute]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: execute
+	at BasePackage.ListenerClass.onTestStart(ListenerClass.java:16)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+      </class> <!-- Tests.MenFashionPageTest -->
+      <class name="Tests.MobilePageTest">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.MobilePageTest@1cbb87f3]" name="execute" duration-ms="13369" started-at="2020-12-19T09:44:05Z" finished-at="2020-12-19T09:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
       </class> <!-- Tests.MobilePageTest -->
       <class name="Tests.SearchItemTest">
-        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.SearchItemTest@a2431d0]" name="execute" duration-ms="25337" started-at="2020-04-21T18:24:39Z" finished-at="2020-04-21T18:25:04Z">
+        <test-method status="PASS" signature="execute()[pri:0, instance:Tests.SearchItemTest@306f16f3]" name="execute" duration-ms="24809" started-at="2020-12-19T09:44:22Z" finished-at="2020-12-19T09:44:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execute -->

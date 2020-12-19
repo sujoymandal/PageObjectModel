@@ -15,16 +15,21 @@
   </test> <!-- Test -->
   <test name="Test(failed)">
     <classes>
+      <class name="Tests.CheckSignIn">
+        <methods>
+          <include name="execute"/>
+        </methods>
+      </class> <!-- Tests.CheckSignIn -->
       <class name="Tests.CheckTShirtLink">
         <methods>
           <include name="execute"/>
         </methods>
       </class> <!-- Tests.CheckTShirtLink -->
-      <class name="Tests.MobilePageTest">
+      <class name="Tests.MenFashionPageTest">
         <methods>
           <include name="execute"/>
         </methods>
-      </class> <!-- Tests.MobilePageTest -->
+      </class> <!-- Tests.MenFashionPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
